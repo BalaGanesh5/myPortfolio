@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255,0);
+}
+
+body {
+  font-family: "Goldman", cursive !important;
+}
+
+.logo {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+/****MENU LINKS *****/
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-bottom: 0.1875rem solid var(--primary-dark)
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+}
+
+.navbar-nav >li > a.active, .navbar-nav > li > a:focus {
+  border-bottom: 0.1875rem solid var(--primary-orange) ;
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.1875rem solid var(--primary-orange) ;
+}
